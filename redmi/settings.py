@@ -79,11 +79,11 @@ WSGI_APPLICATION = "redmi.wsgi.application"
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'postgres',
+        'NAME': 'railway',
         'USER': 'postgres',
-        'PASSWORD': '0702',
-        'HOST': 'localhost',
-        'PORT': '5432',
+        'PASSWORD': 'Huj3cTakoLjqAJRaTCFt',
+        'HOST': 'containers-us-west-155.railway.app',
+        'PORT': '6294',
     }
 }
 
@@ -166,3 +166,16 @@ SIMPLE_JWT = {
     'AUTH_TOKEN_CLASSES': ('rest_framework_simplejwt.tokens.AccessToken',),
     'TOKEN_TYPE_CLAIM': 'token_type',
 }
+
+
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'postgres',
+#         'USER': 'postgres',
+#         'PASSWORD': '0702',
+#         'HOST': 'localhost',
+#         'PORT': '5432',
+#     }
+# }
